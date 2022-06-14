@@ -13,6 +13,7 @@ const Main=(props)=>{
             <div className="myMain">
               <h2>Hello I am my Main</h2>
               <h3>Myname is: {name} <br></br> My age is: {age} <br></br> My e-mail: {email} <hr></hr></h3>
+              <h4>How are you today?</h4>
             </div>
 
         </div>
