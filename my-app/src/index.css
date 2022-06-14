@@ -1,0 +1,38 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+
+}
+
+
+
+.header,ul{
+  display: flex;
+  justify-content: end;
+  padding: 30px;
+  background-color: black;
+ 
+ }
+ .header,ul,li,a{
+   color: white;
+   padding: 30px;
+   font-size: 1.3rem;
+ }
+
+ .myMain{
+   font-size: 2rem;
+
+ }
+
+
+
+ .myfooter{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 10rem; 
+  background-color: rgb(9, 54, 54); 
+}
