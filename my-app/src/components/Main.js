@@ -6,13 +6,13 @@ import React from "react";
 const Main=(props)=>{
     
     // THIS CALLED destructuring. TO TAKE OUT MAIN THINGS FROM PROPS
-    const{mysonname,myname}=props
+    const{name,age,email}=props
     return(
         
         <div>
             <div className="myMain">
               <h2>Hello I am my Main</h2>
-              <h3>Myname is: {myname} <br></br> My son name is: {mysonname}</h3>
+              <h3>Myname is: {name} <br></br> My age is: {age} <br></br> My e-mail: {email} <hr></hr></h3>
             </div>
 
         </div>
