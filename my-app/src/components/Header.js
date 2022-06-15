@@ -10,6 +10,7 @@ const Header=()=>{
                    <li><a href="*">Menu</a></li>
                    <li><a href="*">Gallary</a></li>
                    <li><a href="*">Contact us</a></li>
+                   
                </ul>
            
         </div>

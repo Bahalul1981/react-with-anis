@@ -5,6 +5,7 @@ import Footer from "./components/Footer"
 import Main from "./components/Main"
 import myjson from "./jasondata.json"
 import Uniceid from "./components/Uniceid"
+import Nestingmap from "./components/Nestingmap"
 
 function App() {
   
@@ -17,7 +18,7 @@ function App() {
      <Main mysonname="Odhim Dewan" myname="Dewan Amin Ahmed"/>
 
      <Uniceid />
-
+     <Nestingmap />
      <Footer />
      
     </div>

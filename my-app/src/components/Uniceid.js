@@ -41,9 +41,10 @@ const Uniceid = () => {
             Bahalul.map((elem)=>{
                 const{id,name,cooupation}=elem
                 return (
+                    
                     <div key={id}>
                        <h1>{name}</h1>
-                       <p>{cooupation}</p>
+                       <h3>{cooupation}</h3> 
                     </div>
                 )
             })
